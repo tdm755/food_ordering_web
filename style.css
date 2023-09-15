@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* navigation*/
+.logo img{
+    width: 47px;
+    margin: 8px;
+
+}
+
+
+.parent{
+    display: flex;
+    position: fixed;
+    top:0px;
+    /* left: 0px; */
+    width: 100%;
+    z-index: 2;
+    height: 50px;
+    align-items: center;
+}
+.parent ul{
+    display: flex;
+    margin-left: 18px;
+}
+
+.parent ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.04rem;
+    padding: 3px 12px;
+
+}
+.parent ul li a:hover{
+    background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+    border-radius: 17px;
+
+}
+.parent ul li{
+    list-style: none;
+}
+header::before{
+    content: "";
+    position:absolute;
+    z-index: -1;
+    background-image: url("background.jpg");
+    /* background-color: rgb(255, 238, 0); */
+    opacity: 0.90;
+    background-size: cover;
+    width: 100%;
+    height: 407px;
+}
+/* backgroung:absolute */
+.parent::before{
+    content: "";
+    position:absolute;
+    z-index: -1;
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+
+/* 2parent:content */
+.parent2{    
+    margin-top: 92px;
+    height: 333px;   
+}
+.parent2 h1{
+    font-size: 56px;
+    margin-right: 520px;
+}
+.parent2 p{
+    margin: 35px 526px 35px 23px;
+    text-align-last: center;
+    font-size: large;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+
+/* 2parent:button */
+.btn{
+    box-sizing: border-box;
+    border: none;
+    padding: 11px 75px;
+    border-radius: 11px;
+    /* border-bottom-right-radius: 23px; */
+    background-color: rgb(212, 71, 71);
+    font-size: large;
+    cursor: pointer;
+    margin-left: 420px;
+}
+.btn:hover{
+   background-color: rgb(192, 84, 84);
+   color: white;
+   
+}
+
+
+/* services */
+.service{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box img{
+    height: 190px;
+    width: 266px;
+    
+    
+    
+}
+
+.box p{
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 290px;
+    color: rgb(0, 0, 0);
+    
+    
+    
+}
+.box1 img{
+    height: 140px;
+}
+.box1 p{
+    margin: 0px;
+    font-size: 11px;
+    position: absolute;
+    top: 178px;
+    left: 5px;
+    color: #827d7d;
+}
+.box1 h4{
+    position: absolute;
+    top: 152px;
+    left: 2px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Ysabeau SC';
+}
+.box1 .rs_range{
+    height: 30px;
+    width: 60%;
+    padding: 12px;
+    border: 1px solid green;
+    position: absolute;
+    top: 291px;
+    left: 46px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    color: black;
+    text-transform: capitalize;
+}
+
+.box{
+    position: relative;
+    height: 360px;
+    display: flex;
+    gap: 83px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 23px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition-property: all;
+    transition-delay: none;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    box-shadow: 9px 10px 18px 0px #0000003d;
+    background-color: rgb(255, 255, 255);    
+}
+
+
+.service{
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+    
+
+}
+.service a{
+    text-decoration: none;
+}
+.box:hover{
+      
+    transform: scale(1.03);
+
+}
+
+
+.services_container h2{
+    text-align: center;
+    font-size: 34px;
+    padding-bottom: 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.services_container{
+
+    position: relative;
+    margin-left: 7px;
+    margin-right: 7px;
+
+}
+.parent2 h1 span{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Ysabeau SC', sans-serif;
+color: red;
+
+}
+
+.information{
+    height: 388px;
+    background-image: url("banner.jpg");
+    background-size: cover;
+}
+
+footer{
+    height: 40px;
+    color: black;
+    background-color: rgb(219, 219, 224);
+    margin: 60px 0px 0px;
+    text-align: center;
+    
+}
+
+.chatai{
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    bottom: 3px;
+    right: 3px;
+    background-color: rgb(229, 169, 17);
+    border-top-left-radius: 10px;
+    border-radius: 10px 3px 3px 3px;
+    
+    
+
+}
+
+.chatai img{
+    margin: 12px;
+    height: 35px;
+
+}
+
+
+.chatbox{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+}
+
+.animation{
+    height: 10px;
+    width: 60px;
+    position: relative;
+    /* top: 0px; */
+    background-color: rgb(229, 169, 17);
+    border-radius: 6px;
+    animation: 3s linear 1s infinite alternate none anime;
+
+}
+
+
+@keyframes anime {
+    from{
+        top: 0px;
+        left: 0px
+    }
+    to{
+        top:0px;
+        left: 1150px
+    }
+}
+
+
+
+@media all and (max-width: 760px){
+    .parent2 p{
+        color:rgb(0, 0, 0);
+        font-weight: bolder;
+        font-size: 18px;
+        margin: 0px;
+        text-align: center;
+        
+    }
+
+    .parent2 h1{
+        text-align: center;
+        margin: 0px;
+    }
+    
+    .parent{
+        flex-direction: column;
+        align-items: center;
+    }
+    header::before{
+        height: 544px;
+        background-image: url("bgimage.jpg");
+        background-position: -140px;
+        opacity: 0.7;
+    }
+
+    .information{
+    height: 128px;
+    width: 365px;
+    margin: 0px 10px;
+    border-radius: 3px;
+    }
+
+
+
+
+}

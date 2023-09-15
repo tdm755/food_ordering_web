@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(233, 231, 231);
+    position: relative;
+}
+/* navigation*/
+.logo img{
+    width: 47px;
+    margin: 8px;
+
+}
+
+.parent{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 50px;
+}
+.parent ul{
+    display: flex;
+    margin-left: 18px;
+}
+
+.parent ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.04rem;
+    padding: 3px 12px;
+
+}
+.parent ul li a:hover{
+    background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+    border-radius: 17px;
+
+}
+.parent ul li{
+    list-style: none;
+}
+
+/* backgroung:absolute */
+.parent::before{
+    content: "";
+    position:absolute;
+    z-index: -1;
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+hr{
+    margin: 43px 14px 16px ;
+
+}
+.pizzasss .bestdeal{
+    position: absolute;
+    top: 94px;
+}
+
+
+
+.bestdeal{
+    height: 30px;
+    width: 120px;
+    background-color: #fff;
+    color: rgb(1, 1, 1);
+    font-size: 12px;
+    position: absolute;
+    top: -15px;
+    left: 40px;
+    border-radius: 23px;
+   
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.pizza{
+    width: 237px;
+    height: 250px;
+    /* margin: 15px; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    position: relative;
+}
+.imeg p{
+    color: white; 
+    text-shadow: -5px 8px 20px rgb(0, 0, 0);
+    align-self: self-start;
+    margin-left: 11px;
+}
+.imeg{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.image3{
+    height: 95px;
+    background-image: url("MoroccanSpicePastaPizzaVeg.jpg");
+    background-size: cover;
+}
+.image2{
+    height: 95px;
+    background-image: url("MoroccanSpicePPNV_N.jpg");
+    background-size: cover;
+}
+.image1{      
+    height: 95px;
+    background-image: url("PIZ0171.jpg");
+    background-size: cover;
+}
+.image4{
+    height: 95px;
+    background-image: url("new_cheese_n_corn.webp");
+    background-size: cover;
+
+}
+.image5{
+    height: 95px;
+    background-image: url("new_margherita_2502.webp");
+    background-size: cover;
+}
+.image6{
+    height: 95px;
+    background-image: url("new_peppy_paneer.webp");
+    background-size: cover;
+}
+.image7{
+    height: 95px;
+    background-image: url("new_veg_extravaganza.webp");
+    background-size: cover;
+}
+.image8{
+    height: 95px;
+    background-image: url("new_peppy_paneer.webp");
+    background-size: cover;
+}
+.image9{
+    height: 95px;
+    background-image: url("farmhouse.webp");
+    background-size: cover;
+}
+.image10{
+    height: 95px;
+    background-image: url("CMB1375.jpg");
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 34px;
+    margin: 34px 23px 16px;
+}
+
+.pizzasss_section2{
+    margin-top: 135px;
+    position: relative;
+}
+
+.pizzasss_section3{
+    margin-top: 135px;
+    position: relative;
+    
+    
+
+
+}
+.pizzasss_vegsection{
+    margin-top: 135px;
+
+    position: relative;
+}
+.bestdeal2{
+    
+    height: 30px;
+    width: 120px;
+    background-color: #fff;
+    color: rgb(1, 1, 1);
+    font-size: 12px;
+    position: absolute;
+    top: -15px;
+    left: 40px;
+    border-radius: 23px;
+   
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+.bestdeal3{
+    height: 30px;
+    width: 120px;
+    background-color: #fff;
+    color: rgb(1, 1, 1);
+    font-size: 12px;
+    position: absolute;
+    top: -15px;
+    left: 40px;
+    border-radius: 23px;
+   
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+select{
+    border:none;
+    border-bottom: 1px solid black;
+    width: 47%;
+    outline: none;
+}
+
+.selection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 11px;
+    margin: 0px 8px;
+
+}
+.pizza button{
+    /* border: none; */
+    padding: 7px;
+    position: absolute;
+    top: 206px;
+    left: 74px;
+    font-size: 12px;
+    border: 1px solid green;
+    border-radius: 2px;
+    cursor: pointer;
+    color: green;
+
+}
+
+
+/* description */
+
+.discription p{
+
+    font-size: 10px;
+    color: #7a7a7ade;
+    margin: 0px 8px;
+
+    
+}
+
+.discription h5{
+    margin: 0px 8px 5px;
+
+}
